@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+.head .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+.head .container .header-img {
+  max-width: 730px;
+}
+.head .container .header-img img {
+  margin-bottom: 30px;
+}
+.head .container .header-img .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 30px;
+}
+.head .container .header-img .header-content .header-text h1 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 100%;
+  color: #00001A;
+}
+.head .container .header-img .header-content .text p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 173%;
+  color: #5E607A;
+  margin-bottom: 29px;
+}
+.head .container .header-img .header-content .text button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.31em;
+  color: #FFFDFA;
+  background-color: #F15D51;
+  padding: 13px 35px 11px 31px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.head .container .header-img .header-content .text button:hover {
+  color: #fff;
+  background-color: #00001A;
+}
+.head .container .cards {
+  width: 100%;
+  max-width: 350px;
+  padding: 32px 24px;
+  background-color: #00001A;
+}
+.head .container .cards .card h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #E9AA52;
+  margin-bottom: 34px;
+}
+.head .container .cards .card h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  color: #FFFDFA;
+  margin-bottom: 8px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.head .container .cards .card h3:hover {
+  color: #E9AA52;
+}
+.head .container .cards .card p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 173%;
+  color: #C5C6CE;
+  margin-bottom: 29px;
+}
+.head .container .cards .card .line {
+  width: 302px;
+  height: 1px;
+  background-color: #5E607A;
+  margin-bottom: 31px;
+}
